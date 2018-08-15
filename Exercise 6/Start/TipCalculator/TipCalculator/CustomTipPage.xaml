@@ -23,24 +23,21 @@
             x:Name="billLabel"
             Grid.Row="0"
             Grid.Column="0"
-            FontAttributes="Bold"
-            FontSize="22"
+            Style="{StaticResource infoLabelStyle}"
             Text="Bill" />
 
         <Label
             x:Name="tipLabel"
             Grid.Row="1"
             Grid.Column="0"
-            FontAttributes="Bold"
-            FontSize="22"
+            Style="{StaticResource infoLabelStyle}"
             Text="Tip" />
 
         <Label
             x:Name="totalLabel"
             Grid.Row="2"
             Grid.Column="0"
-            FontAttributes="Bold"
-            FontSize="22"
+            Style="{StaticResource infoLabelStyle}"
             Text="Total" />
 
         <Entry
