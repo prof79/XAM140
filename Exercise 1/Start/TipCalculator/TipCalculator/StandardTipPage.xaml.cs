@@ -1,4 +1,6 @@
-﻿using System;
+﻿// StandardTipPage.xaml.cs
+
+using System;
 using Xamarin.Forms;
 
 namespace TipCalculator

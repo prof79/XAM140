@@ -1,4 +1,6 @@
-﻿using System;
+﻿// CustomTipPage.xaml.cs
+
+using System;
 using Xamarin.Forms;
 
 namespace TipCalculator
@@ -24,6 +26,7 @@ namespace TipCalculator
 		void CalculateTip(bool roundUp, bool roundDown)
 		{
 			double t;
+
 			if (Double.TryParse(billInput.Text, out t) && t > 0)
 			{
 				double pct = Math.Round(tipPercentSlider.Value);
