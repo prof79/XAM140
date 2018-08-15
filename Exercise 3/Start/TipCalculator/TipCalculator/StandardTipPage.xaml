@@ -20,7 +20,7 @@
     <Grid
         x:Name="LayoutRoot"
         Padding="10"
-        BackgroundColor="{StaticResource bgColor}">
+        BackgroundColor="{DynamicResource bgColor}">
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -43,7 +43,7 @@
             FontAttributes="Bold"
             FontSize="22"
             Text="Bill"
-            TextColor="{StaticResource fgColor}" />
+            TextColor="{DynamicResource fgColor}" />
 
         <Label
             x:Name="tipLabel"
@@ -52,7 +52,7 @@
             FontAttributes="Bold"
             FontSize="22"
             Text="Tip"
-            TextColor="{StaticResource fgColor}" />
+            TextColor="{DynamicResource fgColor}" />
 
         <Label
             x:Name="totalLabel"
@@ -61,7 +61,7 @@
             FontAttributes="Bold"
             FontSize="22"
             Text="Total"
-            TextColor="{StaticResource fgColor}" />
+            TextColor="{DynamicResource fgColor}" />
 
         <!--  Right column = user input and calculated-value output  -->
         <Entry
@@ -78,7 +78,7 @@
             Grid.Column="1"
             FontSize="22"
             Text="0.00"
-            TextColor="{StaticResource fgColor}" />
+            TextColor="{DynamicResource fgColor}" />
 
         <Label
             x:Name="totalOutput"
@@ -86,7 +86,7 @@
             Grid.Column="1"
             FontSize="22"
             Text="0.00"
-            TextColor="{StaticResource fgColor}" />
+            TextColor="{DynamicResource fgColor}" />
 
         <!--  Navigate to advanced-view page  -->
         <Button
