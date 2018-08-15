@@ -17,8 +17,10 @@
                 <Setter Property="FontSize" Value="22" />
             </Style>
 
-            <Style x:Key="infoLabelStyle" TargetType="Label">
-                <Setter Property="FontSize" Value="22" />
+            <Style
+                x:Key="infoLabelStyle"
+                BasedOn="{StaticResource baseLabelStyle}"
+                TargetType="Label">
                 <Setter Property="FontAttributes" Value="Bold" />
             </Style>
 
