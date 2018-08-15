@@ -14,7 +14,7 @@
             <Color x:Key="fgColor">#606060</Color>
 
             <Style x:Key="infoLabelStyle" TargetType="Label">
-                <Setter Property="FontSize" Value="22" />
+                <Setter Property="FontSize" Value="32" />
                 <Setter Property="FontAttributes" Value="Bold" />
             </Style>
 
