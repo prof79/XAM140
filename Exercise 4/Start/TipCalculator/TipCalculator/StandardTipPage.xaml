@@ -13,6 +13,11 @@
 
             <Color x:Key="fgColor">#606060</Color>
 
+            <Style x:Key="infoLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="22" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
         </ResourceDictionary>
 
     </ContentPage.Resources>
@@ -40,8 +45,7 @@
             x:Name="billLabel"
             Grid.Row="0"
             Grid.Column="0"
-            FontAttributes="Bold"
-            FontSize="22"
+            Style="{StaticResource infoLabelStyle}"
             Text="Bill"
             TextColor="{DynamicResource fgColor}" />
 
@@ -49,8 +53,7 @@
             x:Name="tipLabel"
             Grid.Row="1"
             Grid.Column="0"
-            FontAttributes="Bold"
-            FontSize="22"
+            Style="{StaticResource infoLabelStyle}"
             Text="Tip"
             TextColor="{DynamicResource fgColor}" />
 
@@ -58,8 +61,7 @@
             x:Name="totalLabel"
             Grid.Row="2"
             Grid.Column="0"
-            FontAttributes="Bold"
-            FontSize="22"
+            Style="{StaticResource infoLabelStyle}"
             Text="Total"
             TextColor="{DynamicResource fgColor}" />
 
