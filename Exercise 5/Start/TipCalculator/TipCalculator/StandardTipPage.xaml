@@ -13,8 +13,12 @@
 
             <Color x:Key="fgColor">#606060</Color>
 
+            <Style x:Key="baseLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="22" />
+            </Style>
+
             <Style x:Key="infoLabelStyle" TargetType="Label">
-                <Setter Property="FontSize" Value="32" />
+                <Setter Property="FontSize" Value="22" />
                 <Setter Property="FontAttributes" Value="Bold" />
             </Style>
 
@@ -78,7 +82,7 @@
             x:Name="tipOutput"
             Grid.Row="1"
             Grid.Column="1"
-            FontSize="22"
+            Style="{StaticResource baseLabelStyle}"
             Text="0.00"
             TextColor="{DynamicResource fgColor}" />
 
@@ -86,7 +90,7 @@
             x:Name="totalOutput"
             Grid.Row="2"
             Grid.Column="1"
-            FontSize="22"
+            Style="{StaticResource baseLabelStyle}"
             Text="0.00"
             TextColor="{DynamicResource fgColor}" />
 
